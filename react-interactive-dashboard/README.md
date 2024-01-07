@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+## Libraries Used
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Day.js](https://day.js.org/)
+- **Purpose**: Date handling in a lightweight and modern way.
+- **Why**: Chosen for its simplicity, lightweight size, and easy-to-use API.
 
-Currently, two official plugins are available:
+### [Luxon](https://moment.github.io/luxon/)
+- **Purpose**: Another library for date handling.
+- **Why**: Selected for its modern API and features for working with dates and times.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### [React.js](https://reactjs.org/)
+- **Purpose**: Building the user interface.
+- **Why**: A popular and efficient library for building modern and scalable web applications.
 
-## Expanding the ESLint configuration
+### [React Big Calendar](https://github.com/jquense/react-big-calendar)
+- **Purpose**: Calendar views in the dashboard.
+- **Why**: Chosen for its flexibility and rich set of features, making it suitable for displaying events in different views.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### [React DOM](https://reactjs.org/docs/react-dom.html)
+- **Purpose**: Rendering React components into the DOM.
+- **Why**: Essential for React applications to interact with the DOM.
 
-- Configure the top-level `parserOptions` property like this:
+### [React Icons](https://react-icons.github.io/react-icons/)
+- **Purpose**: Easy integration of icons in the React application.
+- **Why**: Provides a vast collection of icons for enhancing the user interface.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- **Purpose**: Navigation within the React application.
+- **Why**: A widely used library for adding routing capabilities to React applications.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
