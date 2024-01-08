@@ -1,6 +1,6 @@
-import { Suspense } from 'react'
+import { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Dashboard from './pages/Dashboard/Dashboard'
+const  Dashboard =  lazy(() => import("./pages/Dashboard/Dashboard"))
 
 
 function App(): JSX.Element {
